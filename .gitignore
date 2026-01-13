@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+audit.log.jsonl
+report.json
+downloads_report.json

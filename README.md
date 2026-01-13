@@ -54,29 +54,5 @@ python cli.py ~/Downloads
 ```bash
 python cli.py ~/Downloads --json report.json
 ```
-## Terminal Output
-
-The tool displays:
-A banner: The File Scanner x ClamAV
-A live animated scanning indicator
-Scan summary (target, type, hash if applicable)
-Virus detection count
-Detection details (only if malware is found)
-FedRAMP control mapping
-Example fields:
-Viruses detected: 0
-Status: CLEAN or Status: INFECTED
-JSON Report Output
-When the --json flag is used, the tool writes a structured report containing:
-UTC timestamp
-Tool metadata
-Full scan results
-Per-file detection results
-ClamAV scan summary
-FedRAMP control mapping
-
----
-
 ## Screenshot
-
 ![The File Scanner x ClamAV terminal output](screenshots/filescanner.png)
